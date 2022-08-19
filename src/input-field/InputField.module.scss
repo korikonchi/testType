@@ -1,0 +1,31 @@
+@import "../../styles/mixins";
+
+.input {
+  margin-bottom: rem(5);
+
+  .label {
+    font-weight: 700;
+    color: $primary-gray;
+    margin-bottom: rem(6);
+    display: block;
+    font-size: rem(18);
+  }
+
+  .field {
+    border: none;
+    border-radius: rem(4);
+    padding: rem(15) rem(14);
+    width: 100%;
+    font-size: rem(16);
+    color: rgb(88, 88, 88);
+  }
+
+  .errorLog {
+    display: flex;
+    align-items: center;
+    height: rem(22);
+    color: rgba($red, 0.5);
+    font-size: rem(13);
+    padding-top: rem(5);
+  }
+}
